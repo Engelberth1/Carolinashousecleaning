@@ -11,7 +11,9 @@ header {
     text-align: center;
     padding: 20px 0;
 }
-
+nav {
+    background-color: ;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
