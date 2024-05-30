@@ -5,60 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carolina's House Cleaning</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    
+    <script src="script.js" defer></script> <!-- Moved script to an external file -->
 </head>
 <body>
-    <header class="container">
-        <img class="logo" src="images/FullLogo.jpg"></img>
-        <h1>Welcome to Carolina's House Cleaning</h1>
+    <header>
+        <div class="container">
+            <img class="logo" src="images/FullLogo.jpg" alt="Carolina's House Cleaning Logo">
+            <h1>Welcome to Carolina's House Cleaning</h1>
+        </div>
     </header>
-    
+
     <nav>
         <ul>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Our Services</a></li>
-            <li><a href="#Quote">Get a Quote
-            </a></li>
+            <li><a href="#quote">Get a Quote</a></li> <!-- Changed ID to lowercase for consistency -->
             <li><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
 
     <section id="about">
-        <h2>About Us</h2>
-        <p>We are dedicated to providing top-quality cleaning services for your home. With years of experience, our team ensures that your space is spotless and inviting.</p>
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing top-quality cleaning services for your home. With years of experience, our team ensures that your space is spotless and inviting.</p>
+        </div>
     </section>
 
     <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Regular Cleaning</li>
-            <li>Deep Cleaning</li>
-            <li>Move-in/Move-out Cleaning</li>
-            <li>Special Event Cleaning</li>
-            <li>Customized Cleaning Plans</li>
-        </ul>
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul id="servicesList"> <!-- Added an ID to target for dynamic list population -->
+                <!-- List items will be added dynamically by JavaScript -->
+            </ul>
+        </div>
     </section>
 
-    <section id="Quote">
-        <h2>Get a Quote
-        </h2>
-        <p>Schedule a cleaning service</p>
-        <div id="4d37b7f2-79fb-4091-a4e7-401d0292efab"></div>
+    <section id="quote">
+        <div class="container">
+            <h2>Get a Quote</h2>
+            <p>Schedule a quote</p>
+            <div id="4d37b7f2-79fb-4091-a4e7-401d0292efab"></div>
 <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" />
 <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="4d37b7f2-79fb-4091-a4e7-401d0292efab" form_url="https://clienthub.getjobber.com/client_hubs/4d37b7f2-79fb-4091-a4e7-401d0292efab/public/work_request/embedded_work_request_form"></script>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact us</h2>
-        <p>If you have any questions or would like to please contact us: </p>
-        <p>Email: cdlcarmen123@gmail.com</p>
-        <p>Phone: 602-448-6340</p>
-        
-
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to please contact us:</p>
+            <p>Email: cdlcarmen123@gmail.com</p>
+            <p>Phone: 602-448-6340</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Carolina's House Cleaning</p>
+        <div class="container">
+            <p>&copy; 2024 Carolina's House Cleaning</p>
+        </div>
     </footer>
 </body>
 </html>

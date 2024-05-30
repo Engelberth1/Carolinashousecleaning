@@ -11,10 +11,8 @@ header {
     text-align: center;
     padding: 20px 0;
 }
-nav {
-    background-color: ;
-}
-nav ul {
+
+nav ul {~
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,13 +43,10 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-.container {
-    display:flex ;
-
-}
-.logo{
-    height: 150px;
-    margin-right:50px;
-    margin-left: 50px;
-
+.logo {
+    display: block;
+    margin: 10px; /* Adjusted margin for better spacing */
+    max-width: 150px; /* Set maximum width for the logo */
+    height: auto;
+    
 }
