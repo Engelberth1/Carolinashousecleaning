@@ -1,18 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "UberMove", Arial, sans-serif; /* Using a font similar to Uber's */
     margin: 0;
     padding: 0;
     background-color: #ffffff;
 }
 
 header {
-    background-color:#081429;
+    background-color: #081429;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
-nav ul {~
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,6 +35,7 @@ section {
 
 section h2 {
     color: #333;
+    text-align: center;
 }
 
 footer {
@@ -43,13 +44,28 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
 .logo {
     display: block;
-    margin: 10px; /* Adjusted margin for better spacing */
+    margin: 10px auto; /* Center the logo horizontally */
     max-width: 150px; /* Set maximum width for the logo */
     height: auto;
-    
 }
-h1{
-    color:#ff6600 ;
+
+h1 {
+    color: #ff6600;
+    font-weight: bold; /* Adding bold font weight for emphasis */
+    font-size: 24px; /* Adjusting font size for better readability */
 }
+
+/* Improving overall spacing */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add padding to the container for better spacing */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove right margin for the last nav item */
+}
+
